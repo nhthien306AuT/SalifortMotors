@@ -3,7 +3,7 @@
   - This project analyzes employee attrition at Salifort Motors using a full Data Science workflow.
   - It includes data preprocessing, exploratory analysis, and machine learning modeling to identify key drivers of turnover 
 and support HR decision-making.
-3. Project Structure
+2. Project Structure
   - Folders:
     + dataset: Raw data used for analysis and modeling.
     + report: Exploratory analysis, visuals (boxplots, scatterplots, histogram), feature importance, model results.
