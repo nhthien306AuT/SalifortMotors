@@ -10,7 +10,7 @@ and support HR decision-making.
     + final_report: Final analytical report with insights & recommendations,full data science modeling report: model building, evaluation, and performance analysis.
     + scripts: Python scripts for data cleaning, EDA, feature engineering & modeling.
 3. Tech Stack
-    - Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn.
+  - Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn.
 4. Workflow
   - Data cleaning and preprocessing
   - Exploratory Data Analysis (EDA)
