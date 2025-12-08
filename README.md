@@ -18,5 +18,5 @@ and support HR decision-making.
   - Model training and evaluation (Logistic Regression, Decision Tree, Random Forest, XGBoost)
   - Extracting insights to support HR decision-making
 5. Results
-  - Random Forest achieved the best performance with strong feature importance signals 
-highlighting job satisfaction, overtime, and tenure as top predictors of attrition.
+  - XGBoost achieved the best performance with strong feature importance signals 
+highlighting tenure, satisfaction level, number of project, workload status and last evaluation as top predictors of attrition.
