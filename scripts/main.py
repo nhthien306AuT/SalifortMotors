@@ -44,7 +44,8 @@ if __name__ == "__main__":
     # logis = logistic_model(eda).preprocess().train().evaluate()
     # tree= decision_tree_model(eda).preprocess().train("Decision Tree")
     # rf = random_forest_model(eda).preprocess().train().get_best_cv_results("RF").get_scores("RF").feature_importance("RF")
-    xgb = xgboost_model(eda).preprocess().train().get_best_cv_results("XGB").get_scores("XGB").feature_importance("XGB")    
+    # xgb = xgboost_model(eda).preprocess().train().get_best_cv_results("XGB").get_scores("XGB").feature_importance("XGB").save_model("XGB")   
+
 
 
 

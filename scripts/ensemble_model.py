@@ -3,7 +3,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 import matplotlib.pyplot as plt
 from results_logger import log_result
-
+import joblib
+import os
 
 class base_model:
 
@@ -108,5 +109,12 @@ class base_model:
         plt.savefig(save_path, bbox_inches='tight')
         plt.close(fig)
         print(f"✅ Feature importance saved to: {save_path}")
+
+        return self
+    
+    def save_model(self, model_name="model"):
+        save_path = f"D:\DA_Google_Advanced\Course7_ProjectCapstone\Project_SalifortMotors\deploy_model\{model_name}.joblib"
+        joblib.dump(self.model, save_path)
+        print(f"✅ Model saved to: {save_path}")
 
         return self
