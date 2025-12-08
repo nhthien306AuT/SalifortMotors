@@ -6,6 +6,7 @@ and support HR decision-making.
 2. Project Structure
   - Folders:
     + dataset: Raw data used for analysis and modeling.
+    + deploy_model: contains the finalized model saved in .joblib format, used during the deployment stage.
     + report: Exploratory analysis, visuals (boxplots, scatterplots, histogram), feature importance, model results.
     + final_report: Final analytical report with insights & recommendations,full data science modeling report: model building, evaluation, and performance analysis.
     + scripts: Python scripts for data cleaning, EDA, feature engineering & modeling.
