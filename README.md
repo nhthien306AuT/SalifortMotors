@@ -17,6 +17,7 @@ and support HR decision-making.
   - Exploratory Data Analysis (EDA)
   - Feature engineering
   - Model training and evaluation (Logistic Regression, Decision Tree, Random Forest, XGBoost)
+  - Deploy the champion model 
   - Extracting insights to support HR decision-making
 5. Results
   - XGBoost achieved the best performance with strong feature importance signals 
